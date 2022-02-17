@@ -17,3 +17,9 @@ now = datetime.datetime.now()
 data_time = (now.strftime('%y-%m-%d %H: %M:%S'))
 print('Time the Qrcode reader is used:')
 print (data_time)
+
+# Code for camera
+capture = cv2.VideoCapture(0)
+recieved_data = None
+
+# Condition code
