@@ -12,4 +12,8 @@ import cv2
 from pyzbar.pyzbar import decode
 import datetime
 
-# Create program for time checker 
+# Create program for time checker
+now = datetime.datetime.now()
+data_time = (now.strftime('%y-%m-%d %H: %M:%S'))
+print('Time the Qrcode reader is used:')
+print (data_time)
