@@ -1,0 +1,2 @@
+b'Contact Information\nName: John Rengel O. Jaylo\nStudent no: 2021-05785-MN-0\nEmail address: johnrengelo.jaylo1211@gmail.com\nPUP webmail: johnrengelojaylo@iskolarngbayan.pup.edu.ph\nContact no: 0960552108\nCurrent residence:  Block #6 lot #46 Terraza de Antipolo Dalig, Antipolo City\nMode of learning: Online Learning\nVaccine Status: 1st and 2nd dose of Sinovac vaccine\nAge: 20\nSex: Male\n'
+Date and time when the program run is: 22-02-17 17: 19:38
