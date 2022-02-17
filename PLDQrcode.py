@@ -31,4 +31,15 @@ while True:
         data=(decoded_data[0][0])
         if data != recieved_data:
             print(data)
-   
+            recieved_data = data
+    except:
+        pass
+
+    cv2.imshow('QR Code Scanner', frame)
+
+    key = cv2.waitKey(1)
+
+    if key == 27:
+        break
+
+# Text file creator
