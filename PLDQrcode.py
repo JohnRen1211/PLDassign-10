@@ -46,5 +46,5 @@ while True:
 with open('data.txt', 'w') as f:
     f.write(str(recieved_data))
     f.write('\n')
-
-# Text file creator
+    f.write(' Information about: yyy-mmm-ddd and time ')
+    f.write(str(data_time))
