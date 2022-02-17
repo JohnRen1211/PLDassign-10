@@ -8,3 +8,8 @@
 print('Qr Code reader open')
 
 # Import libraries
+import cv2
+from pyzbar.pyzbar import decode
+import datetime
+
+# Create program for time checker 
