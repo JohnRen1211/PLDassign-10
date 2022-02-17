@@ -43,3 +43,8 @@ while True:
         break
 
 # Text file creator
+with open('data.txt', 'w') as f:
+    f.write(str(recieved_data))
+    f.write('\n')
+
+# Text file creator
