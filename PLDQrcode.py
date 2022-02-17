@@ -48,3 +48,5 @@ with open('data.txt', 'w') as f:
     f.write('\n')
     f.write(' Information about: yyy-mmm-ddd and time ')
     f.write(str(data_time))
+
+print('Program successfully run')
