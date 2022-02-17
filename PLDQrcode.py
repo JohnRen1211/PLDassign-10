@@ -23,3 +23,12 @@ capture = cv2.VideoCapture(0)
 recieved_data = None
 
 # Condition code
+while True:
+    _,frame = capture.read()
+
+    decoded_data = decode(frame)
+    try:
+        data=(decoded_data[0][0])
+        if data != recieved_data:
+            print(data)
+   
